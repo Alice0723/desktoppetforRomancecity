@@ -138,7 +138,8 @@ pyinstaller --noconsole --onefile --name "火辣辣桌宠" --add-data "assets;as
 
 ## 📄 许可证
 
-本项目仅供学习交流使用。
+本项目仅供个人娱乐学习交流使用，不得商用。
+任何问题可联系🍠@明耀九粥
 
 ---
 
