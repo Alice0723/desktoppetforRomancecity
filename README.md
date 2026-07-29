@@ -1,4 +1,4 @@
-# 🔥 火辣辣桌宠
+# 🔥 罗曼城小怪物桌宠（以我最爱的火辣辣为例）
 
 > 一个可爱的桌面宠物，陪你学习、工作、音乐，记录你的每一天
 
@@ -33,6 +33,7 @@
 
 - Python 3.10+
 - Windows 操作系统
+- Mac 暂不支持
 
 ### 安装依赖
 
@@ -53,6 +54,8 @@ python main.py
 ```bash
 pyinstaller --noconsole --onefile --name "火辣辣桌宠" --add-data "assets;assets" --collect-all pynput main.py
 ```
+
+exe下载
 
 ---
 
@@ -144,4 +147,4 @@ pyinstaller --noconsole --onefile --name "火辣辣桌宠" --add-data "assets;as
 
 ## 🙏 致谢
 
-感谢使用火辣辣桌宠！希望它能陪你度过美好的每一天 💕
+希望它能陪你度过美好的每一天 💕
