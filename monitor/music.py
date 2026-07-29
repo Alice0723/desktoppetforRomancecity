@@ -74,6 +74,10 @@ MUSIC_PLAYER_PATTERNS = [
     (r'网易云音乐\s*-\s*(.+)', '网易云音乐'),
     (r'(.+?)\s*-\s*网易云音乐', '网易云音乐'),
     (r'网易云音乐', '网易云音乐'),
+    # 网页版音乐 / 视频站点
+    (r'(.+?)\s*[-|_]\s*YouTube(?:\s*[-|_].+)?', 'YouTube'),
+    (r'(.+?)\s*[-|_]\s*(?:Bilibili|哔哩哔哩)(?:\s*[-|_].+)?', 'Bilibili'),
+    (r'(.+?)\s*[-|_]\s*网易云音乐(?:\s*[-|_].+)?', '网易云音乐'),
     # QQ音乐
     (r'QQ音乐\s*-\s*(.+)', 'QQ音乐'),
     (r'(.+?)\s*-\s*QQ音乐', 'QQ音乐'),
@@ -100,8 +104,10 @@ MUSIC_PLAYER_PATTERNS = [
     # B站
     (r'B站', 'Bilibili'),
     (r'bilibili', 'Bilibili'),
+    (r'哔哩哔哩', 'Bilibili'),
     # YouTube
     (r'YouTube', 'YouTube'),
+    (r'YouTube Music', 'YouTube Music'),
 ]
 
 # 已知音乐播放器窗口标题关键字
@@ -110,7 +116,7 @@ MUSIC_KEYWORDS = [
     'Spotify', 'foobar2000', 'VLC', 'Poweramp',
     'MusicBee', 'winamp', 'Apple Music',
     'AIMP', 'PotPlayer', 'KMPlayer',
-    '抖音', 'Bilibili', '哔哩哔哩', 'YouTube',
+    '抖音', 'Bilibili', '哔哩哔哩', 'YouTube', 'YouTube Music',
 ]
 
 # 已知音乐播放器进程名（小写匹配 → 显示名）
