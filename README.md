@@ -54,8 +54,8 @@ python main.py
 ```bash
 pyinstaller --noconsole --onefile --name "火辣辣桌宠" --add-data "assets;assets" --collect-all pynput main.py
 ```
-
-exe下载[点击下载 火辣辣 (.exe)](https://github.com/Alice0723/desktoppetforRomancecity/releases/download/v1.0/HuolalaPet.exe)
+### 下载专区
+[点击下载 火辣辣 (.exe)](https://github.com/Alice0723/desktoppetforRomancecity/releases/download/v1.0/HuolalaPet.exe)
 
 ---
 
