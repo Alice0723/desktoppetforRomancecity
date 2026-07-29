@@ -120,15 +120,6 @@ pyinstaller --noconsole --onefile --name "火辣辣桌宠" --add-data "assets;as
 
 ---
 
-## 🖼 截图
-
-<p align="center">
-  <img src="assets/idle.png" width="200" alt="screenshot1">
-  <img src="assets/music.png" width="200" alt="screenshot2">
-</p>
-
----
-
 ## 🔧 技术栈
 
 - **Python 3** - 编程语言
